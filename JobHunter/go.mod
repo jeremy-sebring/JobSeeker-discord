@@ -2,10 +2,7 @@ module sebring.dev/JobSeeker-discord/JobHunter/v2
 
 go 1.21.6
 
-require (
-	github.com/gocolly/colly/v2 v2.1.0
-	github.com/serpapi/google-search-results-golang v0.0.0-20230616000151-95707d993dc6
-)
+require github.com/gocolly/colly/v2 v2.1.0
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.1 // indirect
@@ -22,5 +19,5 @@ require (
 	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )
